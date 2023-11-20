@@ -1,0 +1,20 @@
+{
+	"__format_version__": 2,
+	"id": "E15903B3-4A7C-B206-7D0C-C88CBC7051FA",
+	"name": "__Embark__Venus0",
+	"description": "Surface composition highly estimated",
+	"version": 0,
+	"type": "PLANET_BUILDER",
+	"creator":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedBy":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedOn": "2022-10-04T16:51:10.880Z",
+	"isLocal": false
+}

@@ -1,0 +1,20 @@
+{
+	"__format_version__": 2,
+	"id": "04457A5E-433E-B474-3AAA-709FECE07E9C",
+	"name": "Hayabusa Station #2",
+	"description": "",
+	"version": -1,
+	"type": "HABITAT_BUILDER",
+	"creator":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedBy":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedOn": "2022-10-07T00:06:36.038Z",
+	"isLocal": true
+}

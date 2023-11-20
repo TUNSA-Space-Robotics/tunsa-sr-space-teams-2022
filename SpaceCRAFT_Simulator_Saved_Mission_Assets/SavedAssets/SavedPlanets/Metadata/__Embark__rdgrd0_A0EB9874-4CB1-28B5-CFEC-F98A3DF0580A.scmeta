@@ -1,0 +1,20 @@
+{
+	"__format_version__": 2,
+	"id": "A0EB9874-4CB1-28B5-CFEC-F98A3DF0580A",
+	"name": "__Embark__rdgrd0",
+	"description": "Unlisted elements in surface and atmosphere compositions are added to oxygen percentage",
+	"version": 0,
+	"type": "PLANET_BUILDER",
+	"creator":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedBy":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedOn": "2022-10-07T00:50:36.329Z",
+	"isLocal": false
+}

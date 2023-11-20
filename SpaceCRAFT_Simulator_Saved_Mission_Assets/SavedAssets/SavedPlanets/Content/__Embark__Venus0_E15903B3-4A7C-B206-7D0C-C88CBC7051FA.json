@@ -1,0 +1,137 @@
+{
+	"meta" : {
+		
+	},
+	"Entity" : {
+		"#Required" : {
+			"Name" : "Venus",
+			"Type" : "Planet",
+			"Systems" : []
+		},
+		"#Planet" : {
+			"Header" : {
+				"Name" : "Venus",
+				"CreatedBy" : "Dilpickleman",
+				"Description" : "Surface composition highly estimated",
+				"Material" : "Material'/Game/PlanetaryDevelopement/Materials/Surface/BasePlanetMat.BasePlanetMat'"
+			},
+
+			"General" : {
+				"Radius" : 2000.0,
+				"DisplayRadius" : 6052.0,
+				"Mass" : 4.868159,
+				"MassPercentOfEarth" : 5243.0,
+				"OrbitDistance" : 0.723,
+				"Age" : 4.5,
+				"TiltAngle" : 177.300003,
+				"RotationSpeed" : 0.04,
+				"RotationDays" : 243.0,
+				"Albedo" : 0.75,
+				"Seed" : ["int32",0]
+			},
+
+			"Noise" : {
+				"TerrainSlot0" : ["int32",0],
+				"Weight0" : 62.488506,
+				"TerrainSlot1" : ["int32",1],
+				"Weight1" : 97.85701,
+				"TerrainSlot2" : ["int32",2],
+				"Weight2" : 73.426003,
+				"TerrainSlot3" : ["int32",3],
+				"Weight3" : 40.254257,
+				"TerrainSlot4" : ["int32",4],
+				"Weight4" : 133.679031,
+				"TerrainSlot5" : ["int32",5],
+				"Weight5" : 126.527534,
+				"TerrainSlot6" : ["int32",5],
+				"Weight6" : 0.0,
+				"TerrainSlot7" : ["int32",5],
+				"Weight7" : 0.0,
+				
+				"SeaLevel" : -1.0,
+				"BiomeFrequency" : 5.290667,
+				"BaseFrequency" : 1.0,
+				"BiomePersistence" : 0.539474,
+				"BasePersistence" : 0.5,
+				"BiomeLacunarity" : 4.421052,
+				"BaseLacunarity" : 2.0,
+				"BaseOctave" : ["int32",10],
+				"BaseRoughness" : 4.0,
+				"BaseHeightScale" : 100000.0,
+				"X" : 5.77,
+				"Y" : 2.576667,
+				"Z" : 1.653333
+			},
+
+			"Atmosphere" : {
+				"HydrogenPercentage" : 0.0,
+				"NitrogenPercentage" : 3.5,
+				"OxygenPercentage" : 0.0,
+				"ArgonPercentage" : 0.0,
+				"CO2Percentage" : 96.5,
+				"MethanePercentage" : 0.0,
+				"Density" : 64.999992,
+				"Height" : 15.9
+			},
+
+			"Surface" : {
+				"OxygenPercentage" : 51.400002,
+				"SiliconPercentage" : 31.400002,
+				"AluminumPercentage" : 7.6,
+				"IronPercentage" : 3.2,
+				"MagnesiumPercentage" : 2.1,
+				"SulfurPercentage" : 4.3,
+				"OceanType" : ["int32",0],
+				"OceanVolume" : 0.0
+			},
+
+			"AtmosphereRendering" : {
+				"RayleighR" : 0.552941,
+				"RayleighG" : 0.517647,
+				"RayleighB" : 0.352941,
+				"MeiR" : 0.827451,
+				"MeiG" : 0.780392,
+				"MeiB" : 0.529412,
+				"AbsorptionR" : 0.447059,
+				"AbsorptionG" : 0.482353,
+				"AbsorptionB" : 0.647059,
+				"RayleighScale" : 0.232097,
+				"AerialPerspective" : 1.908
+			},
+
+			"SurfaceRendering" : {
+				"OceanColorR" : 0.070588,
+				"OceanColorG" : 0.152941,
+				"OceanColorB" : 0.290196,
+				"SnowColorR" : 1.0,
+				"SnowColorG" : 1.0,
+				"SnowColorB" : 0.96,
+				"SnowMulti" : 0.0,
+				"SnowExp" : 20.0
+			},
+
+			"Simulation" : {
+				"LOD" : ["int32", 10],
+				"GroundScatter" : true,
+				"NumGroundScatter" : ["int32", 500]
+			}
+
+		},
+		"Dynamics": {
+			"PropagationType": "ComputeVelocity",
+			"InterpolationType" : "Interp1stOrder",
+			"IsRebaseCenter" : false,
+			"GenerateCollider" : false,
+			"Mass" : 4.868159
+		},
+		"Graphics": {
+			"Scale": 1.0,
+			"RenderFar" : true,
+			"IsLightSource": false
+		},
+		"Location" : ["doubleV3", 2000000.01, 0.0, 0.0],
+		"Velocity" : ["doubleV3", 0.0, 0.0, 0.0],
+		"Rotation" : ["doubleV4", 0.0, 0.0, 0.0, 1.0],
+		"AngVelocity" : ["doubleV3", 0.0, 0.0, 0.0]
+	}
+}

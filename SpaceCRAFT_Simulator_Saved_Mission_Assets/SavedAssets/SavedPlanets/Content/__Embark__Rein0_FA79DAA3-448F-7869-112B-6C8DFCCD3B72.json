@@ -1,0 +1,137 @@
+{
+	"meta" : {
+		
+	},
+	"Entity" : {
+		"#Required" : {
+			"Name" : "Rein",
+			"Type" : "Planet",
+			"Systems" : []
+		},
+		"#Planet" : {
+			"Header" : {
+				"Name" : "Rein",
+				"CreatedBy" : "ElyesKhe",
+				"Description" : "Unlisted elements in surface and atmosphere compositions are added to oxygen percentage",
+				"Material" : "Material'/Game/PlanetaryDevelopement/Materials/Surface/BasePlanetMat.BasePlanetMat'"
+			},
+
+			"General" : {
+				"Radius" : 2000.0,
+				"DisplayRadius" : 6352.235352,
+				"Mass" : 8.052471,
+				"MassPercentOfEarth" : 7500.0,
+				"OrbitDistance" : 0.865748,
+				"Age" : 4.140764,
+				"TiltAngle" : 25.9,
+				"RotationSpeed" : 8.308836,
+				"RotationDays" : 1.203538,
+				"Albedo" : 0.158602,
+				"Seed" : ["int32",0]
+			},
+
+			"Noise" : {
+				"TerrainSlot0" : ["int32",0],
+				"Weight0" : 28.63382,
+				"TerrainSlot1" : ["int32",1],
+				"Weight1" : 180.799774,
+				"TerrainSlot2" : ["int32",2],
+				"Weight2" : 104.892944,
+				"TerrainSlot3" : ["int32",3],
+				"Weight3" : 43.760021,
+				"TerrainSlot4" : ["int32",4],
+				"Weight4" : 196.4758,
+				"TerrainSlot5" : ["int32",5],
+				"Weight5" : 116.07576,
+				"TerrainSlot6" : ["int32",5],
+				"Weight6" : 0.0,
+				"TerrainSlot7" : ["int32",5],
+				"Weight7" : 0.0,
+				
+				"SeaLevel" : -0.159291,
+				"BiomeFrequency" : 5.557543,
+				"BaseFrequency" : 1.0,
+				"BiomePersistence" : 0.558381,
+				"BasePersistence" : 0.5,
+				"BiomeLacunarity" : 4.383238,
+				"BaseLacunarity" : 2.0,
+				"BaseOctave" : ["int32",10],
+				"BaseRoughness" : 4.0,
+				"BaseHeightScale" : 100000.0,
+				"X" : 4.335683,
+				"Y" : 2.795815,
+				"Z" : 2.868502
+			},
+
+			"Atmosphere" : {
+				"HydrogenPercentage" : 9.846141,
+				"NitrogenPercentage" : 17.546402,
+				"OxygenPercentage" : 17.422205,
+				"ArgonPercentage" : 16.366524,
+				"CO2Percentage" : 19.409369,
+				"MethanePercentage" : 19.409369,
+				"Density" : 1.183259,
+				"Height" : 25.0
+			},
+
+			"Surface" : {
+				"OxygenPercentage" : 44.084541,
+				"SiliconPercentage" : 13.028698,
+				"AluminumPercentage" : 12.747167,
+				"IronPercentage" : 15.844014,
+				"MagnesiumPercentage" : 14.295589,
+				"SulfurPercentage" : 0.0,
+				"OceanType" : ["int32",0],
+				"OceanVolume" : 0.840709
+			},
+
+			"AtmosphereRendering" : {
+				"RayleighR" : 0.282353,
+				"RayleighG" : 0.337255,
+				"RayleighB" : 0.47451,
+				"MeiR" : 0.423529,
+				"MeiG" : 0.505882,
+				"MeiB" : 0.713726,
+				"AbsorptionR" : 0.717647,
+				"AbsorptionG" : 0.662745,
+				"AbsorptionB" : 0.52549,
+				"RayleighScale" : 0.010062,
+				"AerialPerspective" : 3.0
+			},
+
+			"SurfaceRendering" : {
+				"OceanColorR" : 0.070588,
+				"OceanColorG" : 0.152941,
+				"OceanColorB" : 0.290196,
+				"SnowColorR" : 1.0,
+				"SnowColorG" : 1.0,
+				"SnowColorB" : 0.96,
+				"SnowMulti" : 0.035262,
+				"SnowExp" : 18.236889
+			},
+
+			"Simulation" : {
+				"LOD" : ["int32", 10],
+				"GroundScatter" : true,
+				"NumGroundScatter" : ["int32", 500]
+			}
+
+		},
+		"Dynamics": {
+			"PropagationType": "ComputeVelocity",
+			"InterpolationType" : "Interp1stOrder",
+			"IsRebaseCenter" : false,
+			"GenerateCollider" : false,
+			"Mass" : 8.052471
+		},
+		"Graphics": {
+			"Scale": 1.0,
+			"RenderFar" : true,
+			"IsLightSource": false
+		},
+		"Location" : ["doubleV3", 2000000.01, 0.0, 0.0],
+		"Velocity" : ["doubleV3", 0.0, 0.0, 0.0],
+		"Rotation" : ["doubleV4", 0.0, 0.233684, 0.0, 0.972313],
+		"AngVelocity" : ["doubleV3", 0.0, 0.0, 0.0]
+	}
+}

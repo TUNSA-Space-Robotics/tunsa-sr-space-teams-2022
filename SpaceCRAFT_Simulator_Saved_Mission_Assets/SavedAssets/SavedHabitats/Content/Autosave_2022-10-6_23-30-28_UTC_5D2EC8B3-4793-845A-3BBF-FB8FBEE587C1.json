@@ -1,0 +1,155 @@
+{
+	"name": "Autosave_2022-10-6_23-30-28_UTC",
+	"dateLastUpdated": "2022.10.06-23.30.28",
+	"allRoots": [
+		"855F6B1F4B18794077D26EB63DB8DF24"
+	],
+	"parts": [
+		{
+			"name": "855F6B1F4B18794077D26EB63DB8DF24",
+			"isMainRoot": true,
+			"bP_Path": "/Game/BuilderTools/PartImpl/StaticMeshPart.StaticMeshPart_C",
+			"sockets": [
+				{
+					"relativeLocation":
+					{
+						"x": -334.84298706054688,
+						"y": 0,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": -1,
+						"y": 0,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 0,
+					"outgoing": true
+				}
+			],
+			"socketIn": [],
+			"socketOut": [],
+			"inertia": [
+				{
+					"ixx": 21818,
+					"iyy": 21818,
+					"izz": 21818,
+					"ixy": 1.7569999694824219,
+					"ixz": 0.047100000083446503,
+					"iyz": -0.093549996614456177
+				}
+			],
+			"parentLink":
+			{
+				"startNode": "855F6B1F4B18794077D26EB63DB8DF24",
+				"startNodeSocketIndex": 0,
+				"endNode": "NONE",
+				"endNodeSocketIndex": 1
+			},
+			"links": [
+				{
+					"startNode": "855F6B1F4B18794077D26EB63DB8DF24",
+					"startNodeSocketIndex": 0,
+					"endNode": "NONE",
+					"endNodeSocketIndex": 1
+				}
+			],
+			"relativeTransformToParent":
+			{
+				"rotation":
+				{
+					"x": -0,
+					"y": 0,
+					"z": -0.99999994039535522,
+					"w": 3.5762786865234375e-07
+				},
+				"translation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"inputSet":
+			{
+				"stringInputs":
+				{
+					"Resources/Oxygen/StorageCapacity": "210",
+					"Resources/Oxygen/Storage": "210",
+					"Resources/CO2/StorageCapacity": "10",
+					"Resources/CO2/Storage": "0",
+					"Resources/Power/StorageCapacity": "100000",
+					"Resources/Power/Storage": "100000",
+					"Resources/Power/Consumption": "200",
+					"Resources/Food/Consumption": "0.00015741",
+					"Resources/CleanWater/Consumption": "0.000246296",
+					"Resources/WasteWater/Production": "0.000246296",
+					"Resources/Oxygen/Consumption": "0.000038889",
+					"Resources/CO2/Production": "0.0000462963",
+					"Name": "Hab Command Center",
+					"Mass": "9730.248047",
+					"CargoMass": "0",
+					"Scale": "X=1.000 Y=1.000 Z=1.000",
+					"SimulatePhysics": "false",
+					"Lights": "X=0.000 Y=0.000 Z=95.000",
+					"LightIntensity": "100000000.0",
+					"LightAttenuationRadius": "600.0",
+					"LightColor": "CLR_1.0|1.0|1.0|1.0",
+					"_HiddenInputKeys": "Scale,Lights,Name,SimulatePhysics,LightIntensity,LightAttenuationRadius,LightColor,CargoMass,_HiddenInputKeys,_ReadonlyInputKeys",
+					"_ReadonlyInputKeys": "Mass,Resources/Oxygen/StorageCapacity,Resources/CO2/StorageCapacity,Resources/Power/StorageCapacity,Resources/Power/Consumption,Resources/Food/Consumption,Resources/CleanWater/Consumption,Resources/WasteWater/Production,Resources/Oxygen/Consumption,Resources/CO2/Production"
+				},
+				"objectInputs":
+				{
+					"StaticMesh": "StaticMesh'/Game/StaticMeshes/Modular/MPSH/MPSH_CommandCenter.MPSH_CommandCenter'"
+				},
+				"objectArrayInputs":
+				{
+					"Materials":
+					{
+						"array": []
+					}
+				}
+			}
+		}
+	],
+	"assemblyTransform":
+	{
+		"rotation":
+		{
+			"x": 0,
+			"y": 0,
+			"z": 0,
+			"w": 1
+		},
+		"translation":
+		{
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"scale3D":
+		{
+			"x": 1,
+			"y": 1,
+			"z": 1
+		}
+	}
+}

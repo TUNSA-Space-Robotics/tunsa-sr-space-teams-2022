@@ -1,0 +1,235 @@
+step1
+3.53
+
+step2
+method1: tilted first
+antinormal -0.19
+retrograde -0.24
+
+step3: circle
+method 1 -> retrograde -0.36
+------------
+92
+90
+100
+
+`__________________
+step1
+3.57
+
+step2
+method1: tilted first
+antinormal -0.18
+retrograde -0.24
+
+step3: circle
+method 1 -> retrograde -0.34
+99.69
+80.04
+100
+---------------------
+step1
+3.53
+
+step2
+method1: tilted first
+antinormal -0.23
+retrograde -0.24
+
+step3: circle
+method 1 -> retrograde -0.36
+95.27
+90.24
+
+----------
+
+step1
+3.55
+
+step2
+method1: tilted first
+antinormal -0.25
+retrograde -0.24
+
+step3: circle
+method 1 -> retrograde -0.36
+99.72
+88.45
+-----------------
+
+step1
+3.55
+
+step2
+method1: tilted first
+antinormal -0.24
+retrograde -0.24
+
+step3: circle
+method 1 -> retrograde -0.33
+99.72
+88.33
+
+
+
+step1
+3.55
+
+step2
+method1: tilted first
+antinormal -0.24
+retrograde -0.24
+
+step3: circle
+method 1 -> retrograde -0.35
+99.7
+88.61
+
+-----------+
+
+step1
+3.55
+
+step2
+method1: tilted first
+antinormal -0.24
+retrograde -0.24
+
+step3: circle
+method 1 -> retrograde -0.35
+99.7
+88.61
+
+
+step1
+3.55
+
+step2
+method1: tilted first
+antinormal -0.29
+retrograde -0.24
+
+step3: circle
+method 1 -> retrograde -0.32
+99
+50
+
+-----------
+
+
+step1
+3.55
+
+step2
+method1: tilted first
+antinormal -0.22
+retrograde -0.24
+
+step3: circle
+method 1 -> retrograde -0.38
+99.7
+94.31
+100
+
+step1
+3.55
+------------
+
+step2
+method1: tilted first
+antinormal -0.22
+retrograde -0.24
+
+step3: circle
+method 1 -> retrograde -0.38
+99.7
+94.31
+100
+
+----------
+step1
+3.55
+------------
+
+step2
+method1: tilted first
+antinormal -0.23
+retrograde -0.24
+
+step3: circle
+method 1 -> retrograde -0.39
+99.7
+94.31
+100
+-----------
+
+step2
+method1: tilted first
+antinormal -0.23
+retrograde -0.23
+
+step3: circle
+method 1 -> retrograde -0.31
+98.95
+89.26
+100
+--------
+step2
+method1: tilted first
+antinormal -0.23
+retrograde -0.22
+
+step3: circle
+method 1 -> retrograde -0.25
+99
+77
+
+--------
+step2
+method1: tilted first
+antinormal -0.23
+retrograde -0.25
+
+step3: circle
+method 1 -> retrograde -0.40
+99.71
+95.81
+--------------------
+step2
+method1: tilted first
+antinormal -0.23
+retrograde -0.26
+
+step3: circle
+method 1 -> retrograde -0.29
+99
+88
+-------
+step1 
+3,55
+
+step2
+method1: tilted first
+antinormal -0.23
+retrograde -0.25
+
+step3: circle
+method 1 -> retrograde -0.42
+99
+98
+100
+------
+step1 
+3,55
+
+step2
+method1: tilted first
+antinormal -0.23
+retrograde -0.25
+
+step3: circle
+method 1 -> retrograde -0.37
+99
+98
+100
+

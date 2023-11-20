@@ -1,0 +1,20 @@
+{
+	"__format_version__": 2,
+	"id": "D11D7F96-4E12-E807-BC22-0E998D9B037B",
+	"name": "Autosave_2022-10-6_19-34-0_UTC",
+	"description": "",
+	"version": -1,
+	"type": "HABITAT_BUILDER",
+	"creator":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedBy":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedOn": "2022-10-06T19:34:00.541Z",
+	"isLocal": true
+}

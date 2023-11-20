@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>8C6705BB49C72C1C08DF49BF46399F52</ExecutionGuid>
+		<CrashGUID>UE4CC-Windows-008070EE4BDE798E309948A6500E402C_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xe31706a0</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>13896</ProcessId>
+		<SecondsSinceStart>1896</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE4-SpaceCRAFT</GameName>
+		<ExecutableName>SpaceCRAFT-Win64-Shipping</ExecutableName>
+		<BuildConfiguration>Shipping</BuildConfiguration>
+		<GameSessionID />
+		<Symbols>**UE4*Release-4.25-CL-0-Win64-Shipping</Symbols>
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.25.2-0+++UE4+Release-4.25</EngineVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en-US</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.25-CL-0</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>C:/Users/Elyes/Downloads/SpaceCRAFT_0.8.2_ST_1.5.6/SpaceCRAFT_0.8.2_ST_1.5.6/SpaceCRAFT/SpaceCRAFT/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Users/Elyes/Downloads/SpaceCRAFT_0.8.2_ST_1.5.6/SpaceCRAFT_0.8.2_ST_1.5.6/SpaceCRAFT/</RootDir>
+		<MachineId>A48A744B458B93A2A5E08EA539861D6E</MachineId>
+		<LoginId>a48a744b458b93a2a5e08ea539861d6e</LoginId>
+		<EpicAccountId>5d8bade1b6e04aba938ea3db60c05a02</EpicAccountId>
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>8</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>16</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 3070 Laptop GPU</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10 (Release 2009)</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>17023950848</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>SpaceCRAFT_Win64_Shipping
+SpaceCRAFT_Win64_Shipping
+SpaceCRAFT_Win64_Shipping
+SpaceCRAFT_Win64_Shipping
+SpaceCRAFT_Win64_Shipping
+SpaceCRAFT_Win64_Shipping
+SpaceCRAFT_Win64_Shipping
+SpaceCRAFT_Win64_Shipping
+SpaceCRAFT_Win64_Shipping
+SpaceCRAFT_Win64_Shipping
+SpaceCRAFT_Win64_Shipping
+SpaceCRAFT_Win64_Shipping
+SpaceCRAFT_Win64_Shipping
+SpaceCRAFT_Win64_Shipping
+SpaceCRAFT_Win64_Shipping
+SpaceCRAFT_Win64_Shipping
+SpaceCRAFT_Win64_Shipping
+SpaceCRAFT_Win64_Shipping
+kernel32
+ntdll</CallStack>
+		<PCallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + df7a90 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 2f65d6e VCRUNTIME140 0x0000000028ba0000 + c1c0 ntdll 0x0000000035d50000 + a229f ntdll 0x0000000035d50000 + 51454 ntdll 0x0000000035d50000 + a0dce SpaceCRAFT-Win64-Shipping 0x0000000065790000 + c8cb13 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + bece4f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + bbc9b7 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 20456b4 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 202d4c5 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 262a741 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc89d6 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8ad3 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cd0602 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 26318b0 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 2633287 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 235c53a SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 227a596 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 5a36d5 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 5a9f8c SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 5a9ffa SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 5b411f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 2f5cfc2 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</PCallStack>
+		<PCallStackHash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + df7a90 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 2f65d6e VCRUNTIME140 0x0000000028ba0000 + c1c0 ntdll 0x0000000035d50000 + a229f ntdll 0x0000000035d50000 + 51454 ntdll 0x0000000035d50000 + a0dce SpaceCRAFT-Win64-Shipping 0x0000000065790000 + c8cb13 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + bece4f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + bbc9b7 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 20456b4 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 202d4c5 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 262a741 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc89d6 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8ad3 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cd0602 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 26318b0 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 2633287 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 235c53a SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 227a596 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 5a36d5 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 5a9f8c SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 5a9ffa SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 5b411f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 2f5cfc2 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>1732</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9d664 KERNELBASE 0x00000000337b0000 + 76a21 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08688 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + df7f22 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + df5048 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + df98de KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15140</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14872</ThreadID>
+				<ThreadName>TaskGraphThreadNP 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5800</ThreadID>
+				<ThreadName>TaskGraphThreadNP 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10252</ThreadID>
+				<ThreadName>TaskGraphThreadNP 2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1944</ThreadID>
+				<ThreadName>TaskGraphThreadNP 3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15176</ThreadID>
+				<ThreadName>TaskGraphThreadNP 4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10784</ThreadID>
+				<ThreadName>TaskGraphThreadNP 5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6636</ThreadID>
+				<ThreadName>TaskGraphThreadNP 6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13860</ThreadID>
+				<ThreadName>TaskGraphThreadNP 7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14696</ThreadID>
+				<ThreadName>TaskGraphThreadNP 8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13520</ThreadID>
+				<ThreadName>TaskGraphThreadNP 9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13844</ThreadID>
+				<ThreadName>TaskGraphThreadNP 10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7936</ThreadID>
+				<ThreadName>TaskGraphThreadNP 11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14676</ThreadID>
+				<ThreadName>TaskGraphThreadNP 12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13028</ThreadID>
+				<ThreadName>TaskGraphThreadNP 13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15488</ThreadID>
+				<ThreadName>TaskGraphThreadHP 14</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16380</ThreadID>
+				<ThreadName>TaskGraphThreadHP 15</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9908</ThreadID>
+				<ThreadName>TaskGraphThreadHP 16</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14772</ThreadID>
+				<ThreadName>TaskGraphThreadHP 17</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14192</ThreadID>
+				<ThreadName>TaskGraphThreadHP 18</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5420</ThreadID>
+				<ThreadName>TaskGraphThreadHP 19</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14272</ThreadID>
+				<ThreadName>TaskGraphThreadHP 20</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10612</ThreadID>
+				<ThreadName>TaskGraphThreadHP 21</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7024</ThreadID>
+				<ThreadName>TaskGraphThreadHP 22</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15196</ThreadID>
+				<ThreadName>TaskGraphThreadHP 23</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3368</ThreadID>
+				<ThreadName>TaskGraphThreadHP 24</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9120</ThreadID>
+				<ThreadName>TaskGraphThreadHP 25</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15396</ThreadID>
+				<ThreadName>TaskGraphThreadHP 26</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15732</ThreadID>
+				<ThreadName>TaskGraphThreadHP 27</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10912</ThreadID>
+				<ThreadName>TaskGraphThreadBP 28</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4792</ThreadID>
+				<ThreadName>TaskGraphThreadBP 29</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11052</ThreadID>
+				<ThreadName>TaskGraphThreadBP 30</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7932</ThreadID>
+				<ThreadName>TaskGraphThreadBP 31</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9980</ThreadID>
+				<ThreadName>TaskGraphThreadBP 32</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6368</ThreadID>
+				<ThreadName>TaskGraphThreadBP 33</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15052</ThreadID>
+				<ThreadName>TaskGraphThreadBP 34</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10428</ThreadID>
+				<ThreadName>TaskGraphThreadBP 35</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3448</ThreadID>
+				<ThreadName>TaskGraphThreadBP 36</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7368</ThreadID>
+				<ThreadName>TaskGraphThreadBP 37</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11924</ThreadID>
+				<ThreadName>TaskGraphThreadBP 38</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14652</ThreadID>
+				<ThreadName>TaskGraphThreadBP 39</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3252</ThreadID>
+				<ThreadName>TaskGraphThreadBP 40</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8b99 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + ccb1ec SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16272</ThreadID>
+				<ThreadName>TaskGraphThreadBP 41</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4572</ThreadID>
+				<ThreadName>PoolThread 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8604</ThreadID>
+				<ThreadName>PoolThread 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4300</ThreadID>
+				<ThreadName>PoolThread 2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4436</ThreadID>
+				<ThreadName>PoolThread 3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7392</ThreadID>
+				<ThreadName>PoolThread 4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8760</ThreadID>
+				<ThreadName>PoolThread 5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>752</ThreadID>
+				<ThreadName>PoolThread 6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10480</ThreadID>
+				<ThreadName>PoolThread 7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15944</ThreadID>
+				<ThreadName>PoolThread 8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9d024 mswsock 0x0000000032bc0000 + f955 mswsock 0x0000000032bc0000 + 5bea WS2_32 0x0000000035b10000 + 54fa WS2_32 0x0000000035b10000 + 520c SpaceCRAFT-Win64-Shipping 0x0000000065790000 + c7555f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + c75248 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + c73852 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d23198 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2340</ThreadID>
+				<ThreadName>PoolThread 9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1912</ThreadID>
+				<ThreadName>PoolThread 10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10160</ThreadID>
+				<ThreadName>PoolThread 11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11984</ThreadID>
+				<ThreadName>PoolThread 12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6336</ThreadID>
+				<ThreadName>PoolThread 13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7120</ThreadID>
+				<ThreadName>PoolThread 14</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14412</ThreadID>
+				<ThreadName>PoolThread 15</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 1fb60cc SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15700</ThreadID>
+				<ThreadName>FMediaTicker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + a0994 ntdll 0x0000000035d50000 + 52dc7 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2772</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9d5c4 KERNELBASE 0x00000000337b0000 + 496de SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 1a69a1f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14392</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + a52f56 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8864</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadNull DefaultInstance(1)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14364</ThreadID>
+				<ThreadName>PoolThread 16</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10604</ThreadID>
+				<ThreadName>PoolThread 17</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11916</ThreadID>
+				<ThreadName>PoolThread 18</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14584</ThreadID>
+				<ThreadName>PoolThread 19</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6004</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10092</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12412</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15704</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7868</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8528</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11136</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>612</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 443a38 nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16248</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + b7c3ab nvwgf2umx 0x00000000dd060000 + b7b5aa nvwgf2umx 0x00000000dd060000 + b6fd0d nvwgf2umx 0x00000000dd060000 + 52830a nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8456</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9708</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2400</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9da94 KERNELBASE 0x00000000337b0000 + 4cbc0 KERNELBASE 0x00000000337b0000 + 4cabe nvwgf2umx 0x00000000dd060000 + 299f07 nvwgf2umx 0x00000000dd060000 + 52830a nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16308</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14420</ThreadID>
+				<ThreadName>PoolThread 20</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9384</ThreadID>
+				<ThreadName>PoolThread 21</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10724</ThreadID>
+				<ThreadName>PoolThread 22</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10448</ThreadID>
+				<ThreadName>PoolThread 23</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15860</ThreadID>
+				<ThreadName>PoolThread 24</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7316</ThreadID>
+				<ThreadName>PoolThread 25</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2256</ThreadID>
+				<ThreadName>PoolThread 26</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14180</ThreadID>
+				<ThreadName>PoolThread 27</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15608</ThreadID>
+				<ThreadName>PoolThread 28</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3804</ThreadID>
+				<ThreadName>PoolThread 29</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15848</ThreadID>
+				<ThreadName>PoolThread 30</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11228</ThreadID>
+				<ThreadName>PoolThread 31</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13664</ThreadID>
+				<ThreadName>PoolThread 32</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9d5c4 KERNELBASE 0x00000000337b0000 + 496de SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0981a SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 26591d1 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13852</ThreadID>
+				<ThreadName>ScreenSaverInhibitor</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 1eb42c3 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16072</ThreadID>
+				<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc892d SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8ad3 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 20f02e0 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5516</ThreadID>
+				<ThreadName>AudioThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace vivoxsdk 0x00000000dc3c0000 + 1c31f5 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5916</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace vivoxsdk 0x00000000dc3c0000 + 1c20e2 vivoxsdk 0x00000000dc3c0000 + 1d9dec vivoxsdk 0x00000000dc3c0000 + 1b2fc3 vivoxsdk 0x00000000dc3c0000 + 1b28a1 vivoxsdk 0x00000000dc3c0000 + 1bdd06 vivoxsdk 0x00000000dc3c0000 + 1cbb29 vivoxsdk 0x00000000dc3c0000 + 1c5936 vivoxsdk 0x00000000dc3c0000 + 1c20a0 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12872</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace vivoxsdk 0x00000000dc3c0000 + 1c20e2 vivoxsdk 0x00000000dc3c0000 + 1d9d30 vivoxsdk 0x00000000dc3c0000 + 1b365c vivoxsdk 0x00000000dc3c0000 + 1b39d5 vivoxsdk 0x00000000dc3c0000 + 1b289a vivoxsdk 0x00000000dc3c0000 + 1bdd06 vivoxsdk 0x00000000dc3c0000 + 1cbb29 vivoxsdk 0x00000000dc3c0000 + 1c5936 vivoxsdk 0x00000000dc3c0000 + 1c20a0 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15072</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc892d SpaceCRAFT-Win64-Shipping 0x0000000065790000 + cc8ad3 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 1c0be72 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 1c0c393 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15376</ThreadID>
+				<ThreadName>RenderThread 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9d5c4 KERNELBASE 0x00000000337b0000 + 496de SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0981a SpaceCRAFT-Win64-Shipping 0x0000000065790000 + 1c0c4b7 SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2812</ThreadID>
+				<ThreadName>RTHeartBeat 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10836</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12672</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15760</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16240</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16268</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12636</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13484</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3436</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13420</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5912</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11100</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14340</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15412</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7076</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12908</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace nvwgf2umx 0x00000000dd060000 + 5487ff nvwgf2umx 0x00000000dd060000 + 54866f nvwgf2umx 0x00000000dd060000 + 12de376 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12692</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9d064 mswsock 0x0000000032bc0000 + 10ab KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12796</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace vivoxsdk 0x00000000dc3c0000 + 1c20e2 vivoxsdk 0x00000000dc3c0000 + 1d9dec vivoxsdk 0x00000000dc3c0000 + 1b2fc3 vivoxsdk 0x00000000dc3c0000 + 1b28a1 vivoxsdk 0x00000000dc3c0000 + 1bdd06 vivoxsdk 0x00000000dc3c0000 + 1cbb29 vivoxsdk 0x00000000dc3c0000 + 1c5936 vivoxsdk 0x00000000dc3c0000 + 1c20a0 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11488</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9da94 KERNELBASE 0x00000000337b0000 + 4cbc0 KERNELBASE 0x00000000337b0000 + 4cabe AUDIOSES 0x000000002d1a0000 + eba0 AUDIOSES 0x000000002d1a0000 + eb4e KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11792</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9da94 KERNELBASE 0x00000000337b0000 + 4cbc0 xaudio2_9 0x000000000d460000 + 16553 xaudio2_9 0x000000000d460000 + 17221 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14816</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2768</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3212</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16012</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15708</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14864</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5604</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13364</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2932</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4432</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14576</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15996</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2368</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14948</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1440</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11128</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7540</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7372</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3860</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1728</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13832</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6032</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15904</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4332</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8308</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5572</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12640</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1596</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6428</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7588</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9688</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace xaudio2_9 0x000000000d460000 + 166ce xaudio2_9 0x000000000d460000 + 17261 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1620</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + 9cfc4 KERNELBASE 0x00000000337b0000 + 21ace SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e0a79e SpaceCRAFT-Win64-Shipping 0x0000000065790000 + d2317f SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e08c6b SpaceCRAFT-Win64-Shipping 0x0000000065790000 + e03831 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14496</ThreadID>
+				<ThreadName>PoolThread 36</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + a0994 ntdll 0x0000000035d50000 + 52dc7 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9296</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + a0994 ntdll 0x0000000035d50000 + 52dc7 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14140</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000035d50000 + a0994 ntdll 0x0000000035d50000 + 52dc7 KERNEL32 0x00000000342c0000 + 17034 ntdll 0x0000000035d50000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15220</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638007061822420000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10 (Release 2009)  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\SpaceCRAFT\Binaries\Win64\XINPUT1_3.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\SpaceCRAFT\Binaries\Win64\X3DAudio1_7.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\SpaceCRAFT\Binaries\Win64\SpaceCRAFT-Win64-Shipping.exe
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\Apex_Destructible_x64.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEX_Clothing_x64.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEX_Legacy_x64.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3_x64.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\Engine\Binaries\ThirdParty\Windows\XAudio2_9\x64\xaudio2_9redist.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEXFramework_x64.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3Common_x64.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\NvCloth_x64.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3Cooking_x64.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\SpaceCRAFT\Binaries\Win64\msvcp140.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PxPvdSDK_x64.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PxFoundation_x64.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64\GFSDK_Aftermath_Lib.x64.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\SpaceCRAFT\Binaries\Win64\VCRUNTIME140.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\SpaceCRAFT\Binaries\Win64\VCRUNTIME140_1.dll
+C:\Users\Elyes\Downloads\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT_0.8.2_ST_1.5.6\SpaceCRAFT\SpaceCRAFT\Binaries\Win64\XAPOFX1_5.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>true</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+	<EngineData>
+		<RHI.IsGPUOverclocked>false</RHI.IsGPUOverclocked>
+		<RHI.RHIName>D3D11</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce RTX 3070 Laptop GPU</RHI.AdapterName>
+		<RHI.UserDriverVersion>516.94</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>31.0.15.1694</RHI.InternalDriverVersion>
+		<RHI.DriverDate>7-21-2022</RHI.DriverDate>
+		<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+		<Platform.AppHasFocus>false</Platform.AppHasFocus>
+	</EngineData>
+	<GameData />
+</FGenericCrashContext>

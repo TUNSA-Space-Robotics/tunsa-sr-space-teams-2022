@@ -1,0 +1,20 @@
+{
+	"__format_version__": 2,
+	"id": "3155B8F6-469D-072C-1F45-89AE36F0C7CB",
+	"name": "HABITAT-X #4",
+	"description": "",
+	"version": -1,
+	"type": "HABITAT_BUILDER",
+	"creator":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedBy":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedOn": "2022-10-06T23:24:58.782Z",
+	"isLocal": true
+}

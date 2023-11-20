@@ -1,0 +1,2419 @@
+{
+	"name": "Autosave_2022-10-7_0-6-36_UTC",
+	"dateLastUpdated": "2022.10.07-00.06.36",
+	"allRoots": [
+		"855F6B1F4B18794077D26EB63DB8DF24",
+		"D21908FB4D421CD4C770FA856BE6849A",
+		"72EC5384430C2E41BD006F9D63C08344",
+		"F8199AE04FA8F1D0DAD9858CFE2B5FCE",
+		"3E46CF3D4687CC3E8E1EB0A7474C9345",
+		"1EE9B70E4D5E05086DE1AB8E2B6BACD2",
+		"CF3254254035DD48F1B795BBE462D4ED",
+		"FA91E4FF45754C13F927F1832BF3791F",
+		"67B7E2BE4951C97E49ED2C95F8E2B29C",
+		"B7DA2CC0414E4B7CEFB1A3A0FA6D9967",
+		"C84B2F55459C6CDDC73652B55333164A",
+		"72B9FA8444D5818B16AF0C81A5632051",
+		"B66917CD4312E4B35A960EA2B3B20E5A"
+	],
+	"parts": [
+		{
+			"name": "855F6B1F4B18794077D26EB63DB8DF24",
+			"isMainRoot": true,
+			"bP_Path": "/Game/BuilderTools/PartImpl/StaticMeshPart.StaticMeshPart_C",
+			"sockets": [
+				{
+					"relativeLocation":
+					{
+						"x": -334.84298706054688,
+						"y": 0,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": -1,
+						"y": 0,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 0,
+					"outgoing": true
+				}
+			],
+			"socketIn": [],
+			"socketOut": [],
+			"inertia": [
+				{
+					"ixx": 21818,
+					"iyy": 21818,
+					"izz": 21818,
+					"ixy": 1.7569999694824219,
+					"ixz": 0.047100000083446503,
+					"iyz": -0.093549996614456177
+				}
+			],
+			"parentLink":
+			{
+				"startNode": "855F6B1F4B18794077D26EB63DB8DF24",
+				"startNodeSocketIndex": 0,
+				"endNode": "NONE",
+				"endNodeSocketIndex": 1
+			},
+			"links": [
+				{
+					"startNode": "855F6B1F4B18794077D26EB63DB8DF24",
+					"startNodeSocketIndex": 0,
+					"endNode": "F43D57514315168CE37F23A0FE3562D1",
+					"endNodeSocketIndex": 0
+				}
+			],
+			"relativeTransformToParent":
+			{
+				"rotation":
+				{
+					"x": -0,
+					"y": 0,
+					"z": -0.99999994039535522,
+					"w": 3.5762786865234375e-07
+				},
+				"translation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"inputSet":
+			{
+				"stringInputs":
+				{
+					"Resources/Oxygen/StorageCapacity": "210",
+					"Resources/Oxygen/Storage": "210",
+					"Resources/CO2/StorageCapacity": "10",
+					"Resources/CO2/Storage": "0",
+					"Resources/Power/StorageCapacity": "100000",
+					"Resources/Power/Storage": "100000",
+					"Resources/Power/Consumption": "200",
+					"Resources/Food/Consumption": "0.00015741",
+					"Resources/CleanWater/Consumption": "0.000246296",
+					"Resources/WasteWater/Production": "0.000246296",
+					"Resources/Oxygen/Consumption": "0.000038889",
+					"Resources/CO2/Production": "0.0000462963",
+					"Name": "Hab Command Center",
+					"Mass": "9730.248047",
+					"CargoMass": "0",
+					"Scale": "X=1.000 Y=1.000 Z=1.000",
+					"SimulatePhysics": "false",
+					"Lights": "X=0.000 Y=0.000 Z=95.000",
+					"LightIntensity": "100000000.0",
+					"LightAttenuationRadius": "600.0",
+					"LightColor": "CLR_1.0|1.0|1.0|1.0",
+					"_HiddenInputKeys": "Scale,Lights,Name,SimulatePhysics,LightIntensity,LightAttenuationRadius,LightColor,CargoMass,_HiddenInputKeys,_ReadonlyInputKeys",
+					"_ReadonlyInputKeys": "Mass,Resources/Oxygen/StorageCapacity,Resources/CO2/StorageCapacity,Resources/Power/StorageCapacity,Resources/Power/Consumption,Resources/Food/Consumption,Resources/CleanWater/Consumption,Resources/WasteWater/Production,Resources/Oxygen/Consumption,Resources/CO2/Production"
+				},
+				"objectInputs":
+				{
+					"StaticMesh": "StaticMesh'/Game/StaticMeshes/Modular/MPSH/MPSH_CommandCenter.MPSH_CommandCenter'"
+				},
+				"objectArrayInputs":
+				{
+					"Materials":
+					{
+						"array": []
+					}
+				}
+			}
+		},
+		{
+			"name": "F43D57514315168CE37F23A0FE3562D1",
+			"isMainRoot": false,
+			"bP_Path": "/Game/BuilderTools/PartImpl/StaticMeshPart.StaticMeshPart_C",
+			"sockets": [
+				{
+					"relativeLocation":
+					{
+						"x": 385,
+						"y": 0,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 0,
+					"outgoing": true
+				},
+				{
+					"relativeLocation":
+					{
+						"x": -385,
+						"y": 0,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": -1,
+						"y": 0,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 0,
+					"outgoing": true
+				},
+				{
+					"relativeLocation":
+					{
+						"x": 0,
+						"y": 285,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 0,
+					"outgoing": true
+				},
+				{
+					"relativeLocation":
+					{
+						"x": 0,
+						"y": -285,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0,
+						"y": -1,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 0,
+					"outgoing": true
+				},
+				{
+					"relativeLocation":
+					{
+						"x": 245,
+						"y": -175,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				},
+				{
+					"relativeLocation":
+					{
+						"x": 245,
+						"y": 175,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0,
+						"y": -1,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				},
+				{
+					"relativeLocation":
+					{
+						"x": -245,
+						"y": -175,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				},
+				{
+					"relativeLocation":
+					{
+						"x": -245,
+						"y": 175,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0,
+						"y": -1,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				}
+			],
+			"socketIn": [],
+			"socketOut": [],
+			"inertia": [
+				{
+					"ixx": 21818,
+					"iyy": 21818,
+					"izz": 21818,
+					"ixy": 1.7569999694824219,
+					"ixz": 0.047100000083446503,
+					"iyz": -0.093549996614456177
+				}
+			],
+			"parentLink":
+			{
+				"startNode": "F43D57514315168CE37F23A0FE3562D1",
+				"startNodeSocketIndex": 0,
+				"endNode": "855F6B1F4B18794077D26EB63DB8DF24",
+				"endNodeSocketIndex": 0
+			},
+			"links": [
+				{
+					"startNode": "F43D57514315168CE37F23A0FE3562D1",
+					"startNodeSocketIndex": 0,
+					"endNode": "855F6B1F4B18794077D26EB63DB8DF24",
+					"endNodeSocketIndex": 0
+				},
+				{
+					"startNode": "F43D57514315168CE37F23A0FE3562D1",
+					"startNodeSocketIndex": 1,
+					"endNode": "F35B53444F40BE8A5CA0EEB16A716FD8",
+					"endNodeSocketIndex": 0
+				},
+				{
+					"startNode": "F43D57514315168CE37F23A0FE3562D1",
+					"startNodeSocketIndex": 2,
+					"endNode": "E2C008D6498A1E72FC600796E1BE78E2",
+					"endNodeSocketIndex": 0
+				},
+				{
+					"startNode": "F43D57514315168CE37F23A0FE3562D1",
+					"startNodeSocketIndex": 3,
+					"endNode": "CD51D2704DC4E2CA82114C9B183403BF",
+					"endNodeSocketIndex": 0
+				}
+			],
+			"relativeTransformToParent":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0.00020414589380379766,
+					"w": 0.99999994039535522
+				},
+				"translation":
+				{
+					"x": -719.84271240234375,
+					"y": -0.15731802582740784,
+					"z": 0
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"inputSet":
+			{
+				"stringInputs":
+				{
+					"Resources/Oxygen/StorageCapacity": "210",
+					"Resources/Oxygen/Storage": "210",
+					"Resources/CO2/StorageCapacity": "10",
+					"Resources/CO2/Storage": "0",
+					"Resources/Power/StorageCapacity": "200000",
+					"Resources/Power/Storage": "100000",
+					"Resources/Power/Consumption": "5",
+					"Name": "Hab Joint",
+					"Mass": "8640.863281",
+					"CargoMass": "0",
+					"Scale": "X=1.000 Y=1.000 Z=1.000",
+					"SimulatePhysics": "false",
+					"Lights": "X=0.000 Y=0.000 Z=95.000",
+					"LightIntensity": "100000000.0",
+					"LightAttenuationRadius": "600.0",
+					"LightColor": "CLR_1.0|1.0|1.0|1.0",
+					"_HiddenInputKeys": "Scale,Lights,Name,SimulatePhysics,LightIntensity,LightAttenuationRadius,LightColor,CargoMass,_HiddenInputKeys,_ReadonlyInputKeys",
+					"_ReadonlyInputKeys": "Mass,Resources/Oxygen/StorageCapacity,Resources/CO2/StorageCapacity,Resources/Power/StorageCapacity,Resources/Power/Consumption"
+				},
+				"objectInputs":
+				{
+					"StaticMesh": "StaticMesh'/Game/StaticMeshes/Modular/MPSH/MPSH_PressurizedJoint.MPSH_PressurizedJoint'"
+				},
+				"objectArrayInputs":
+				{
+					"Materials":
+					{
+						"array": []
+					}
+				}
+			}
+		},
+		{
+			"name": "F35B53444F40BE8A5CA0EEB16A716FD8",
+			"isMainRoot": false,
+			"bP_Path": "/Game/BuilderTools/PartImpl/StaticMeshPart.StaticMeshPart_C",
+			"sockets": [
+				{
+					"relativeLocation":
+					{
+						"x": 665,
+						"y": 0,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 0,
+					"outgoing": true
+				}
+			],
+			"socketIn": [],
+			"socketOut": [],
+			"inertia": [
+				{
+					"ixx": 21818,
+					"iyy": 21818,
+					"izz": 21818,
+					"ixy": 1.7569999694824219,
+					"ixz": 0.047100000083446503,
+					"iyz": -0.093549996614456177
+				}
+			],
+			"parentLink":
+			{
+				"startNode": "F35B53444F40BE8A5CA0EEB16A716FD8",
+				"startNodeSocketIndex": 0,
+				"endNode": "F43D57514315168CE37F23A0FE3562D1",
+				"endNodeSocketIndex": 1
+			},
+			"links": [
+				{
+					"startNode": "F35B53444F40BE8A5CA0EEB16A716FD8",
+					"startNodeSocketIndex": 0,
+					"endNode": "F43D57514315168CE37F23A0FE3562D1",
+					"endNodeSocketIndex": 1
+				}
+			],
+			"relativeTransformToParent":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0.00021004676818847656,
+					"w": -1
+				},
+				"translation":
+				{
+					"x": -1049.9996337890625,
+					"y": 0.27930366992950439,
+					"z": 0
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"inputSet":
+			{
+				"stringInputs":
+				{
+					"Resources/Oxygen/StorageCapacity": "1050",
+					"Resources/Oxygen/Storage": "1050",
+					"Resources/CO2/StorageCapacity": "50",
+					"Resources/CO2/Storage": "0",
+					"Resources/Power/StorageCapacity": "200000",
+					"Resources/Power/Storage": "100000",
+					"Resources/Power/Consumption": "5",
+					"Resources/Food/StorageCapacity": "3000",
+					"Resources/Food/Storage": "3000",
+					"Resources/CleanWater/StorageCapacity": "5000",
+					"Resources/CleanWater/Storage": "5000",
+					"Name": "Rover Garage",
+					"Mass": "25059.558594",
+					"CargoMass": "0",
+					"Scale": "X=1.000 Y=1.000 Z=1.000",
+					"SimulatePhysics": "false",
+					"Lights": "X=0.000 Y=0.000 Z=95.000",
+					"LightIntensity": "100000000.0",
+					"LightAttenuationRadius": "600.0",
+					"LightColor": "CLR_1.0|1.0|1.0|1.0",
+					"_HiddenInputKeys": "Scale,Lights,Name,SimulatePhysics,LightIntensity,LightAttenuationRadius,LightColor,CargoMass,_HiddenInputKeys,_ReadonlyInputKeys",
+					"_ReadonlyInputKeys": "Mass,Resources/Oxygen/StorageCapacity,Resources/CO2/StorageCapacity,Resources/Power/StorageCapacity,Resources/Power/Consumption,Resources/Food/StorageCapacity,Resources/CleanWater/StorageCapacity"
+				},
+				"objectInputs":
+				{
+					"StaticMesh": "StaticMesh'/Game/StaticMeshes/Modular/MPSH/MPSH_VehicleHangarBay.MPSH_VehicleHangarBay'"
+				},
+				"objectArrayInputs":
+				{
+					"Materials":
+					{
+						"array": []
+					}
+				}
+			}
+		},
+		{
+			"name": "E2C008D6498A1E72FC600796E1BE78E2",
+			"isMainRoot": false,
+			"bP_Path": "/Game/BuilderTools/PartImpl/StaticMeshPart.StaticMeshPart_C",
+			"sockets": [
+				{
+					"relativeLocation":
+					{
+						"x": 400,
+						"y": 0,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 0,
+					"outgoing": true
+				},
+				{
+					"relativeLocation":
+					{
+						"x": 238.64900207519531,
+						"y": 238.64900207519531,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": -0.70710700750350952,
+						"y": -0.70710700750350952,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				},
+				{
+					"relativeLocation":
+					{
+						"x": 87.351402282714844,
+						"y": 326,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": -0.25881901383399963,
+						"y": -0.96592599153518677,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				},
+				{
+					"relativeLocation":
+					{
+						"x": -87.351402282714844,
+						"y": 326,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0.25881901383399963,
+						"y": -0.96592599153518677,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				},
+				{
+					"relativeLocation":
+					{
+						"x": -238.64900207519531,
+						"y": 238.64900207519531,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0.70710700750350952,
+						"y": -0.70710700750350952,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				},
+				{
+					"relativeLocation":
+					{
+						"x": -326,
+						"y": 87.351402282714844,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0.96592599153518677,
+						"y": -0.25881901383399963,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				},
+				{
+					"relativeLocation":
+					{
+						"x": -326,
+						"y": -87.351402282714844,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0.96592599153518677,
+						"y": 0.25881901383399963,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				},
+				{
+					"relativeLocation":
+					{
+						"x": -238.64900207519531,
+						"y": -238.64900207519531,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0.70710700750350952,
+						"y": 0.70710700750350952,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				},
+				{
+					"relativeLocation":
+					{
+						"x": -87.351402282714844,
+						"y": -326,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0.25881901383399963,
+						"y": 0.96592599153518677,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				},
+				{
+					"relativeLocation":
+					{
+						"x": 87.351402282714844,
+						"y": -326,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": -0.25881901383399963,
+						"y": 0.96592599153518677,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				},
+				{
+					"relativeLocation":
+					{
+						"x": 238.64900207519531,
+						"y": -238.64900207519531,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": -0.70710700750350952,
+						"y": 0.70710700750350952,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				}
+			],
+			"socketIn": [],
+			"socketOut": [],
+			"inertia": [
+				{
+					"ixx": 21818,
+					"iyy": 21818,
+					"izz": 21818,
+					"ixy": 1.7569999694824219,
+					"ixz": 0.047100000083446503,
+					"iyz": -0.093549996614456177
+				}
+			],
+			"parentLink":
+			{
+				"startNode": "E2C008D6498A1E72FC600796E1BE78E2",
+				"startNodeSocketIndex": 0,
+				"endNode": "F43D57514315168CE37F23A0FE3562D1",
+				"endNodeSocketIndex": 2
+			},
+			"links": [
+				{
+					"startNode": "E2C008D6498A1E72FC600796E1BE78E2",
+					"startNodeSocketIndex": 0,
+					"endNode": "F43D57514315168CE37F23A0FE3562D1",
+					"endNodeSocketIndex": 2
+				}
+			],
+			"relativeTransformToParent":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0.7069019079208374,
+					"w": -0.70731151103973389
+				},
+				"translation":
+				{
+					"x": -0.23173195123672485,
+					"y": 684.99969482421875,
+					"z": 0
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"inputSet":
+			{
+				"stringInputs":
+				{
+					"Resources/Oxygen/StorageCapacity": "420",
+					"Resources/Oxygen/Storage": "420",
+					"Resources/CO2/StorageCapacity": "20",
+					"Resources/CO2/Storage": "0",
+					"Resources/Power/StorageCapacity": "200000",
+					"Resources/Power/Storage": "100000",
+					"Resources/Power/Consumption": "5",
+					"Resources/Food/StorageCapacity": "3000",
+					"Resources/Food/Storage": "3000",
+					"Resources/CleanWater/StorageCapacity": "3000",
+					"Resources/CleanWater/Storage": "3000",
+					"Resources/WasteWater/StorageCapacity": "2000",
+					"Resources/WasteWater/Storage": "0",
+					"Name": "Hab MPM",
+					"Mass": "10152.539062",
+					"CargoMass": "0",
+					"Scale": "X=1.000 Y=1.000 Z=1.000",
+					"SimulatePhysics": "false",
+					"Lights": "X=0.000 Y=0.000 Z=95.000",
+					"LightIntensity": "100000000.0",
+					"LightAttenuationRadius": "600.0",
+					"LightColor": "CLR_1.0|1.0|1.0|1.0",
+					"_HiddenInputKeys": "Scale,Lights,Name,SimulatePhysics,LightIntensity,LightAttenuationRadius,LightColor,CargoMass,_HiddenInputKeys,_ReadonlyInputKeys",
+					"_ReadonlyInputKeys": "Mass,Resources/Oxygen/StorageCapacity,Resources/CO2/StorageCapacity,Resources/Power/StorageCapacity,Resources/Power/Consumption,Resources/Food/StorageCapacity,Resources/CleanWater/StorageCapacity,Resources/WasteWater/StorageCapacity"
+				},
+				"objectInputs":
+				{
+					"StaticMesh": "StaticMesh'/Game/StaticMeshes/Modular/MPSH/MPSH_MultiPurposeModule.MPSH_MultiPurposeModule'"
+				},
+				"objectArrayInputs":
+				{
+					"Materials":
+					{
+						"array": []
+					}
+				}
+			}
+		},
+		{
+			"name": "CD51D2704DC4E2CA82114C9B183403BF",
+			"isMainRoot": false,
+			"bP_Path": "/Game/BuilderTools/PartImpl/StaticMeshPart.StaticMeshPart_C",
+			"sockets": [
+				{
+					"relativeLocation":
+					{
+						"x": 385,
+						"y": 0,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 0,
+					"outgoing": true
+				},
+				{
+					"relativeLocation":
+					{
+						"x": -385,
+						"y": 0,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": -1,
+						"y": 0,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 0,
+					"outgoing": true
+				},
+				{
+					"relativeLocation":
+					{
+						"x": 260,
+						"y": -175,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				},
+				{
+					"relativeLocation":
+					{
+						"x": 260,
+						"y": 175,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0,
+						"y": -1,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				}
+			],
+			"socketIn": [],
+			"socketOut": [],
+			"inertia": [
+				{
+					"ixx": 21818,
+					"iyy": 21818,
+					"izz": 21818,
+					"ixy": 1.7569999694824219,
+					"ixz": 0.047100000083446503,
+					"iyz": -0.093549996614456177
+				}
+			],
+			"parentLink":
+			{
+				"startNode": "CD51D2704DC4E2CA82114C9B183403BF",
+				"startNodeSocketIndex": 0,
+				"endNode": "F43D57514315168CE37F23A0FE3562D1",
+				"endNodeSocketIndex": 3
+			},
+			"links": [
+				{
+					"startNode": "CD51D2704DC4E2CA82114C9B183403BF",
+					"startNodeSocketIndex": 0,
+					"endNode": "F43D57514315168CE37F23A0FE3562D1",
+					"endNodeSocketIndex": 3
+				},
+				{
+					"startNode": "CD51D2704DC4E2CA82114C9B183403BF",
+					"startNodeSocketIndex": 1,
+					"endNode": "NONE",
+					"endNodeSocketIndex": 0
+				}
+			],
+			"relativeTransformToParent":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0.7069321870803833,
+					"w": 0.70728123188018799
+				},
+				"translation":
+				{
+					"x": -0.18986722826957703,
+					"y": -669.99981689453125,
+					"z": 0
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"inputSet":
+			{
+				"stringInputs":
+				{
+					"Resources/Oxygen/StorageCapacity": "210",
+					"Resources/Oxygen/Storage": "210",
+					"Resources/CO2/StorageCapacity": "10",
+					"Resources/CO2/Storage": "0",
+					"Resources/Power/StorageCapacity": "200000",
+					"Resources/Power/Storage": "100000",
+					"Resources/Power/Consumption": "5",
+					"Resources/Food/StorageCapacity": "2000",
+					"Resources/Food/Storage": "2000",
+					"Resources/CleanWater/StorageCapacity": "1000",
+					"Resources/CleanWater/Storage": "1000",
+					"Resources/WasteWater/StorageCapacity": "1000",
+					"Resources/WasteWater/Storage": "0",
+					"Name": "Hab Quarters",
+					"Mass": "11866.788086",
+					"CargoMass": "0",
+					"Scale": "X=1.000 Y=1.000 Z=1.000",
+					"SimulatePhysics": "false",
+					"Lights": "X=0.000 Y=0.000 Z=95.000",
+					"LightIntensity": "100000000.0",
+					"LightAttenuationRadius": "600.0",
+					"LightColor": "CLR_1.0|1.0|1.0|1.0",
+					"_HiddenInputKeys": "Scale,Lights,Name,SimulatePhysics,LightIntensity,LightAttenuationRadius,LightColor,CargoMass,_HiddenInputKeys,_ReadonlyInputKeys",
+					"_ReadonlyInputKeys": "Mass,Resources/Oxygen/StorageCapacity,Resources/CO2/StorageCapacity,Resources/Power/StorageCapacity,Resources/Power/Consumption,Resources/Food/StorageCapacity,Resources/CleanWater/StorageCapacity,Resources/WasteWater/StorageCapacity"
+				},
+				"objectInputs":
+				{
+					"StaticMesh": "StaticMesh'/Game/StaticMeshes/Modular/MPSH/MPSH_CrewQuarters.MPSH_CrewQuarters'"
+				},
+				"objectArrayInputs":
+				{
+					"Materials":
+					{
+						"array": []
+					}
+				}
+			}
+		},
+		{
+			"name": "D21908FB4D421CD4C770FA856BE6849A",
+			"isMainRoot": false,
+			"bP_Path": "/Game/BuilderTools/PartImpl/StaticMeshPart.StaticMeshPart_C",
+			"sockets": [],
+			"socketIn": [],
+			"socketOut": [],
+			"inertia": [
+				{
+					"ixx": 102388.8984375,
+					"iyy": 102388.8984375,
+					"izz": 102388.8984375,
+					"ixy": 0,
+					"ixz": 0.019999999552965164,
+					"iyz": -0.059999998658895493
+				}
+			],
+			"parentLink":
+			{
+				"startNode": "NONE",
+				"startNodeSocketIndex": -1,
+				"endNode": "NONE",
+				"endNodeSocketIndex": -1
+			},
+			"links": [],
+			"relativeTransformToParent":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 442.423828125,
+					"y": 1236.41552734375,
+					"z": -199.9998779296875
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"inputSet":
+			{
+				"stringInputs":
+				{
+					"Resources/Power/Production": "2977.92",
+					"Name": "Hab Solar Panel",
+					"Mass": "1640.93396",
+					"CargoMass": "0.0",
+					"Scale": "X=1.000 Y=1.000 Z=1.000",
+					"SimulatePhysics": "false",
+					"Lights": "X=30.000 Y=0.000 Z=200.000",
+					"LightIntensity": "100000000.0",
+					"LightAttenuationRadius": "0.0",
+					"LightColor": "CLR_1.0|1.0|1.0|1.0",
+					"_HiddenInputKeys": "Scale,Lights,Name,SimulatePhysics,LightIntensity,LightAttenuationRadius,LightColor,CargoMass,_HiddenInputKeys,_ReadonlyInputKeys",
+					"_ReadonlyInputKeys": "Resources/Power/Production,Mass"
+				},
+				"objectInputs":
+				{
+					"StaticMesh": "StaticMesh'/Game/StaticMeshes/Modular/ROVER/ROVER_SolarPanel.ROVER_SolarPanel'"
+				},
+				"objectArrayInputs":
+				{
+					"Materials":
+					{
+						"array": []
+					}
+				}
+			}
+		},
+		{
+			"name": "72EC5384430C2E41BD006F9D63C08344",
+			"isMainRoot": false,
+			"bP_Path": "/Game/BuilderTools/PartImpl/StaticMeshPart.StaticMeshPart_C",
+			"sockets": [],
+			"socketIn": [],
+			"socketOut": [],
+			"inertia": [
+				{
+					"ixx": 102388.8984375,
+					"iyy": 102388.8984375,
+					"izz": 102388.8984375,
+					"ixy": 0,
+					"ixz": 0.019999999552965164,
+					"iyz": -0.059999998658895493
+				}
+			],
+			"parentLink":
+			{
+				"startNode": "NONE",
+				"startNodeSocketIndex": -1,
+				"endNode": "NONE",
+				"endNodeSocketIndex": -1
+			},
+			"links": [],
+			"relativeTransformToParent":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": -2246.84375,
+					"y": 1360.6396484375,
+					"z": -199.9998779296875
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"inputSet":
+			{
+				"stringInputs":
+				{
+					"Resources/Power/Production": "2977.92",
+					"Name": "Hab Solar Panel",
+					"Mass": "1640.93396",
+					"CargoMass": "0.0",
+					"Scale": "X=1.000 Y=1.000 Z=1.000",
+					"SimulatePhysics": "false",
+					"Lights": "X=30.000 Y=0.000 Z=200.000",
+					"LightIntensity": "100000000.0",
+					"LightAttenuationRadius": "0.0",
+					"LightColor": "CLR_1.0|1.0|1.0|1.0",
+					"_HiddenInputKeys": "Scale,Lights,Name,SimulatePhysics,LightIntensity,LightAttenuationRadius,LightColor,CargoMass,_HiddenInputKeys,_ReadonlyInputKeys",
+					"_ReadonlyInputKeys": "Resources/Power/Production,Mass"
+				},
+				"objectInputs":
+				{
+					"StaticMesh": "StaticMesh'/Game/StaticMeshes/Modular/ROVER/ROVER_SolarPanel.ROVER_SolarPanel'"
+				},
+				"objectArrayInputs":
+				{
+					"Materials":
+					{
+						"array": []
+					}
+				}
+			}
+		},
+		{
+			"name": "F8199AE04FA8F1D0DAD9858CFE2B5FCE",
+			"isMainRoot": false,
+			"bP_Path": "/Game/BuilderTools/PartImpl/StaticMeshPart.StaticMeshPart_C",
+			"sockets": [],
+			"socketIn": [],
+			"socketOut": [],
+			"inertia": [
+				{
+					"ixx": 102388.8984375,
+					"iyy": 102388.8984375,
+					"izz": 102388.8984375,
+					"ixy": 0,
+					"ixz": 0.019999999552965164,
+					"iyz": -0.059999998658895493
+				}
+			],
+			"parentLink":
+			{
+				"startNode": "NONE",
+				"startNodeSocketIndex": -1,
+				"endNode": "NONE",
+				"endNodeSocketIndex": -1
+			},
+			"links": [],
+			"relativeTransformToParent":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": -2935.47314453125,
+					"y": 1373.16552734375,
+					"z": -199.999755859375
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"inputSet":
+			{
+				"stringInputs":
+				{
+					"Resources/Power/Production": "2977.92",
+					"Name": "Hab Solar Panel",
+					"Mass": "1640.93396",
+					"CargoMass": "0.0",
+					"Scale": "X=1.000 Y=1.000 Z=1.000",
+					"SimulatePhysics": "false",
+					"Lights": "X=30.000 Y=0.000 Z=200.000",
+					"LightIntensity": "100000000.0",
+					"LightAttenuationRadius": "0.0",
+					"LightColor": "CLR_1.0|1.0|1.0|1.0",
+					"_HiddenInputKeys": "Scale,Lights,Name,SimulatePhysics,LightIntensity,LightAttenuationRadius,LightColor,CargoMass,_HiddenInputKeys,_ReadonlyInputKeys",
+					"_ReadonlyInputKeys": "Resources/Power/Production,Mass"
+				},
+				"objectInputs":
+				{
+					"StaticMesh": "StaticMesh'/Game/StaticMeshes/Modular/ROVER/ROVER_SolarPanel.ROVER_SolarPanel'"
+				},
+				"objectArrayInputs":
+				{
+					"Materials":
+					{
+						"array": []
+					}
+				}
+			}
+		},
+		{
+			"name": "3E46CF3D4687CC3E8E1EB0A7474C9345",
+			"isMainRoot": false,
+			"bP_Path": "/Game/BuilderTools/PartImpl/StaticMeshPart.StaticMeshPart_C",
+			"sockets": [],
+			"socketIn": [],
+			"socketOut": [],
+			"inertia": [
+				{
+					"ixx": 102388.8984375,
+					"iyy": 102388.8984375,
+					"izz": 102388.8984375,
+					"ixy": 0,
+					"ixz": 0.019999999552965164,
+					"iyz": -0.059999998658895493
+				}
+			],
+			"parentLink":
+			{
+				"startNode": "NONE",
+				"startNodeSocketIndex": -1,
+				"endNode": "NONE",
+				"endNodeSocketIndex": -1
+			},
+			"links": [],
+			"relativeTransformToParent":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": -3613.50927734375,
+					"y": 1332.6103515625,
+					"z": -199.9998779296875
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"inputSet":
+			{
+				"stringInputs":
+				{
+					"Resources/Power/Production": "2977.92",
+					"Name": "Hab Solar Panel",
+					"Mass": "1640.93396",
+					"CargoMass": "0.0",
+					"Scale": "X=1.000 Y=1.000 Z=1.000",
+					"SimulatePhysics": "false",
+					"Lights": "X=30.000 Y=0.000 Z=200.000",
+					"LightIntensity": "100000000.0",
+					"LightAttenuationRadius": "0.0",
+					"LightColor": "CLR_1.0|1.0|1.0|1.0",
+					"_HiddenInputKeys": "Scale,Lights,Name,SimulatePhysics,LightIntensity,LightAttenuationRadius,LightColor,CargoMass,_HiddenInputKeys,_ReadonlyInputKeys",
+					"_ReadonlyInputKeys": "Resources/Power/Production,Mass"
+				},
+				"objectInputs":
+				{
+					"StaticMesh": "StaticMesh'/Game/StaticMeshes/Modular/ROVER/ROVER_SolarPanel.ROVER_SolarPanel'"
+				},
+				"objectArrayInputs":
+				{
+					"Materials":
+					{
+						"array": []
+					}
+				}
+			}
+		},
+		{
+			"name": "1EE9B70E4D5E05086DE1AB8E2B6BACD2",
+			"isMainRoot": false,
+			"bP_Path": "/Game/BuilderTools/PartImpl/StaticMeshPart.StaticMeshPart_C",
+			"sockets": [],
+			"socketIn": [],
+			"socketOut": [],
+			"inertia": [
+				{
+					"ixx": 2698.6201171875,
+					"iyy": 2698.6201171875,
+					"izz": 2698.6201171875,
+					"ixy": -0.0099999997764825821,
+					"ixz": -0.0099999997764825821,
+					"iyz": 0.0099999997764825821
+				}
+			],
+			"parentLink":
+			{
+				"startNode": "NONE",
+				"startNodeSocketIndex": -1,
+				"endNode": "NONE",
+				"endNodeSocketIndex": -1
+			},
+			"links": [],
+			"relativeTransformToParent":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 3252.5,
+					"y": 2318.41748046875,
+					"z": -199.99951171875
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"inputSet":
+			{
+				"stringInputs":
+				{
+					"Resources/CleanWater/StorageCapacity": "4000",
+					"Resources/CleanWater/Storage": "4000",
+					"Name": "Hab Storage Tank (Water)",
+					"Mass": "4918.147949",
+					"CargoMass": "0.0",
+					"Scale": "X=1.000 Y=1.000 Z=1.000",
+					"SimulatePhysics": "false",
+					"Lights": "X=30.000 Y=0.000 Z=200.000",
+					"LightIntensity": "100000000.0",
+					"LightAttenuationRadius": "50000.0",
+					"LightColor": "CLR_1.0|1.0|1.0|1.0",
+					"_HiddenInputKeys": "Scale,Lights,Name,SimulatePhysics,LightIntensity,LightAttenuationRadius,LightColor,_HiddenInputKeys,_ReadonlyInputKeys",
+					"_ReadonlyInputKeys": "Mass,CargoMass,Resources/CleanWater/StorageCapacity"
+				},
+				"objectInputs":
+				{
+					"StaticMesh": "StaticMesh'/Game/StaticMeshes/Modular/MPSH/MPSH_StorageTankWater.MPSH_StorageTankWater'"
+				},
+				"objectArrayInputs":
+				{
+					"Materials":
+					{
+						"array": []
+					}
+				}
+			}
+		},
+		{
+			"name": "CF3254254035DD48F1B795BBE462D4ED",
+			"isMainRoot": false,
+			"bP_Path": "/Game/BuilderTools/PartImpl/StaticMeshPart.StaticMeshPart_C",
+			"sockets": [],
+			"socketIn": [],
+			"socketOut": [],
+			"inertia": [
+				{
+					"ixx": 2698.6201171875,
+					"iyy": 2698.6201171875,
+					"izz": 2698.6201171875,
+					"ixy": -0.0099999997764825821,
+					"ixz": -0.0099999997764825821,
+					"iyz": 0.0099999997764825821
+				}
+			],
+			"parentLink":
+			{
+				"startNode": "NONE",
+				"startNodeSocketIndex": -1,
+				"endNode": "NONE",
+				"endNodeSocketIndex": -1
+			},
+			"links": [],
+			"relativeTransformToParent":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 2602.8046875,
+					"y": 2174.665771484375,
+					"z": -199.999755859375
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"inputSet":
+			{
+				"stringInputs":
+				{
+					"Resources/CleanWater/StorageCapacity": "4000",
+					"Resources/CleanWater/Storage": "4000",
+					"Name": "Hab Storage Tank (Water)",
+					"Mass": "4918.147949",
+					"CargoMass": "0.0",
+					"Scale": "X=1.000 Y=1.000 Z=1.000",
+					"SimulatePhysics": "false",
+					"Lights": "X=30.000 Y=0.000 Z=200.000",
+					"LightIntensity": "100000000.0",
+					"LightAttenuationRadius": "50000.0",
+					"LightColor": "CLR_1.0|1.0|1.0|1.0",
+					"_HiddenInputKeys": "Scale,Lights,Name,SimulatePhysics,LightIntensity,LightAttenuationRadius,LightColor,_HiddenInputKeys,_ReadonlyInputKeys",
+					"_ReadonlyInputKeys": "Mass,CargoMass,Resources/CleanWater/StorageCapacity"
+				},
+				"objectInputs":
+				{
+					"StaticMesh": "StaticMesh'/Game/StaticMeshes/Modular/MPSH/MPSH_StorageTankWater.MPSH_StorageTankWater'"
+				},
+				"objectArrayInputs":
+				{
+					"Materials":
+					{
+						"array": []
+					}
+				}
+			}
+		},
+		{
+			"name": "FA91E4FF45754C13F927F1832BF3791F",
+			"isMainRoot": false,
+			"bP_Path": "/Game/BuilderTools/PartImpl/StaticMeshPart.StaticMeshPart_C",
+			"sockets": [
+				{
+					"relativeLocation":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"relativeNormalVector":
+					{
+						"x": -1,
+						"y": 0,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": true
+				}
+			],
+			"socketIn": [],
+			"socketOut": [],
+			"inertia": [
+				{
+					"ixx": 143.74000549316406,
+					"iyy": 143.74000549316406,
+					"izz": 143.74000549316406,
+					"ixy": 0,
+					"ixz": -4.179999828338623,
+					"iyz": 0.019999999552965164
+				}
+			],
+			"parentLink":
+			{
+				"startNode": "NONE",
+				"startNodeSocketIndex": -1,
+				"endNode": "NONE",
+				"endNodeSocketIndex": -1
+			},
+			"links": [
+				{
+					"startNode": "FA91E4FF45754C13F927F1832BF3791F",
+					"startNodeSocketIndex": 0,
+					"endNode": "NONE",
+					"endNodeSocketIndex": 0
+				}
+			],
+			"relativeTransformToParent":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 2909.1591796875,
+					"y": 1126.740478515625,
+					"z": -131.13134765625
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"inputSet":
+			{
+				"stringInputs":
+				{
+					"Resources/Power/Consumption": "50.0",
+					"Resources/Oxygen/Production": "0.0000389",
+					"Resources/Oxygen/StorageCapacity": "5.0",
+					"Resources/Oxygen/Storage": "4.0",
+					"Name": "Oxygen Rack",
+					"Mass": "252.031998",
+					"CargoMass": "0.0",
+					"Scale": "X=1.000 Y=1.000 Z=1.000",
+					"SimulatePhysics": "false",
+					"Lights": "X=30.000 Y=0.000 Z=200.000",
+					"LightIntensity": "100000000.0",
+					"LightAttenuationRadius": "0.0",
+					"LightColor": "CLR_1.0|1.0|1.0|1.0",
+					"RACC_ID": "50",
+					"_HiddenInputKeys": "Scale,Lights,Name,SimulatePhysics,LightIntensity,LightAttenuationRadius,LightColor,RACC_ID,_HiddenInputKeys,_ReadonlyInputKeys",
+					"_ReadonlyInputKeys": "Resources/Power/Consumption,Resources/Oxygen/Production,Resources/Oxygen/StorageCapacity,Mass,CargoMass"
+				},
+				"objectInputs":
+				{
+					"StaticMesh": "StaticMesh'/Game/StaticMeshes/Modular/RACC/SM/RACC_O2_Generator.RACC_O2_Generator'"
+				},
+				"objectArrayInputs":
+				{
+					"Materials":
+					{
+						"array": []
+					}
+				}
+			}
+		},
+		{
+			"name": "67B7E2BE4951C97E49ED2C95F8E2B29C",
+			"isMainRoot": false,
+			"bP_Path": "/Game/BuilderTools/PartImpl/StaticMeshPart.StaticMeshPart_C",
+			"sockets": [],
+			"socketIn": [],
+			"socketOut": [],
+			"inertia": [
+				{
+					"ixx": 6099.02001953125,
+					"iyy": 6099.02001953125,
+					"izz": 6099.02001953125,
+					"ixy": -147.77999877929688,
+					"ixz": -0.72000002861022949,
+					"iyz": -3.5499999523162842
+				}
+			],
+			"parentLink":
+			{
+				"startNode": "NONE",
+				"startNodeSocketIndex": -1,
+				"endNode": "NONE",
+				"endNodeSocketIndex": -1
+			},
+			"links": [],
+			"relativeTransformToParent":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 3253.501953125,
+					"y": 1574.008544921875,
+					"z": -199.9998779296875
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"inputSet":
+			{
+				"stringInputs":
+				{
+					"Resources/Power/Consumption": "500.0",
+					"Name": "Hab Communications Array",
+					"Mass": "1599.20105",
+					"CargoMass": "0.0",
+					"Scale": "X=1.000 Y=1.000 Z=1.000",
+					"SimulatePhysics": "false",
+					"Lights": "X=30.000 Y=0.000 Z=200.000",
+					"LightIntensity": "100000000.0",
+					"LightAttenuationRadius": "0.0",
+					"LightColor": "CLR_1.0|1.0|1.0|1.0",
+					"_HiddenInputKeys": "Scale,Lights,Name,SimulatePhysics,LightIntensity,LightAttenuationRadius,LightColor,_HiddenInputKeys,_ReadonlyInputKeys",
+					"_ReadonlyInputKeys": "Resources/Power/Consumption,Mass,CargoMass"
+				},
+				"objectInputs":
+				{
+					"StaticMesh": "StaticMesh'/Game/StaticMeshes/Modular/MPSH/MPSH_CommunicationsArray.MPSH_CommunicationsArray'"
+				},
+				"objectArrayInputs":
+				{
+					"Materials":
+					{
+						"array": []
+					}
+				}
+			}
+		},
+		{
+			"name": "B7DA2CC0414E4B7CEFB1A3A0FA6D9967",
+			"isMainRoot": false,
+			"bP_Path": "/Game/BuilderTools/PartImpl/StaticMeshPart.StaticMeshPart_C",
+			"sockets": [],
+			"socketIn": [],
+			"socketOut": [],
+			"inertia": [
+				{
+					"ixx": 3982.679931640625,
+					"iyy": 3982.679931640625,
+					"izz": 3982.679931640625,
+					"ixy": -57.169998168945312,
+					"ixz": -135.44000244140625,
+					"iyz": -211.86000061035156
+				}
+			],
+			"parentLink":
+			{
+				"startNode": "NONE",
+				"startNodeSocketIndex": -1,
+				"endNode": "NONE",
+				"endNodeSocketIndex": -1
+			},
+			"links": [],
+			"relativeTransformToParent":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 2676.2724609375,
+					"y": 1418.553955078125,
+					"z": -199.9998779296875
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"inputSet":
+			{
+				"stringInputs":
+				{
+					"Resources/Power/Consumption": "250.0",
+					"Name": "Hab Resource Processor",
+					"Mass": "1616.52002",
+					"CargoMass": "0.0",
+					"Scale": "X=1.000 Y=1.000 Z=1.000",
+					"SimulatePhysics": "false",
+					"Lights": "X=30.000 Y=0.000 Z=200.000",
+					"LightIntensity": "100000000.0",
+					"LightAttenuationRadius": "0.0",
+					"LightColor": "CLR_1.0|1.0|1.0|1.0",
+					"_HiddenInputKeys": "Scale,Lights,Name,SimulatePhysics,LightIntensity,LightAttenuationRadius,LightColor,_HiddenInputKeys,_ReadonlyInputKeys",
+					"_ReadonlyInputKeys": "Resources/Power/Consumption,Mass,CargoMass"
+				},
+				"objectInputs":
+				{
+					"StaticMesh": "StaticMesh'/Game/StaticMeshes/Modular/MPSH/MPSH_ResourceProcessor.MPSH_ResourceProcessor'"
+				},
+				"objectArrayInputs":
+				{
+					"Materials":
+					{
+						"array": []
+					}
+				}
+			}
+		},
+		{
+			"name": "C84B2F55459C6CDDC73652B55333164A",
+			"isMainRoot": false,
+			"bP_Path": "/Game/BuilderTools/PartImpl/StaticMeshPart.StaticMeshPart_C",
+			"sockets": [],
+			"socketIn": [],
+			"socketOut": [],
+			"inertia": [
+				{
+					"ixx": 28493.98046875,
+					"iyy": 28493.98046875,
+					"izz": 28493.98046875,
+					"ixy": 3.130000114440918,
+					"ixz": -10.079999923706055,
+					"iyz": -1866.4200439453125
+				}
+			],
+			"parentLink":
+			{
+				"startNode": "NONE",
+				"startNodeSocketIndex": -1,
+				"endNode": "NONE",
+				"endNodeSocketIndex": -1
+			},
+			"links": [],
+			"relativeTransformToParent":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 2266.6845703125,
+					"y": 890.7078857421875,
+					"z": -199.99993896484375
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"inputSet":
+			{
+				"stringInputs":
+				{
+					"Resources/Power/Consumption": "50.0",
+					"Name": "Hab Ground-Based Telescope",
+					"Mass": "4562.279785",
+					"CargoMass": "0.0",
+					"Scale": "X=1.000 Y=1.000 Z=1.000",
+					"SimulatePhysics": "false",
+					"Lights": "X=30.000 Y=0.000 Z=200.000",
+					"LightIntensity": "100000000.0",
+					"LightAttenuationRadius": "0.0",
+					"LightColor": "CLR_1.0|1.0|1.0|1.0",
+					"_HiddenInputKeys": "Scale,Lights,Name,SimulatePhysics,LightIntensity,LightAttenuationRadius,LightColor,_HiddenInputKeys,_ReadonlyInputKeys",
+					"_ReadonlyInputKeys": "Resources/Power/Consumption,Mass,CargoMass"
+				},
+				"objectInputs":
+				{
+					"StaticMesh": "StaticMesh'/Game/StaticMeshes/Modular/MPSH/MPSH_GroundBasedTelescope.MPSH_GroundBasedTelescope'"
+				},
+				"objectArrayInputs":
+				{
+					"Materials":
+					{
+						"array": []
+					}
+				}
+			}
+		},
+		{
+			"name": "72B9FA8444D5818B16AF0C81A5632051",
+			"isMainRoot": false,
+			"bP_Path": "/Game/BuilderTools/PartImpl/StaticMeshPart.StaticMeshPart_C",
+			"sockets": [],
+			"socketIn": [],
+			"socketOut": [],
+			"inertia": [
+				{
+					"ixx": 102388.8984375,
+					"iyy": 102388.8984375,
+					"izz": 102388.8984375,
+					"ixy": 0,
+					"ixz": 0.019999999552965164,
+					"iyz": -0.059999998658895493
+				}
+			],
+			"parentLink":
+			{
+				"startNode": "NONE",
+				"startNodeSocketIndex": -1,
+				"endNode": "NONE",
+				"endNodeSocketIndex": -1
+			},
+			"links": [],
+			"relativeTransformToParent":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": -1487.92626953125,
+					"y": 1088.1737060546875,
+					"z": -199.9998779296875
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"inputSet":
+			{
+				"stringInputs":
+				{
+					"Resources/Power/Production": "2977.92",
+					"Name": "Hab Solar Panel",
+					"Mass": "1640.93396",
+					"CargoMass": "0.0",
+					"Scale": "X=1.000 Y=1.000 Z=1.000",
+					"SimulatePhysics": "false",
+					"Lights": "X=30.000 Y=0.000 Z=200.000",
+					"LightIntensity": "100000000.0",
+					"LightAttenuationRadius": "0.0",
+					"LightColor": "CLR_1.0|1.0|1.0|1.0",
+					"_HiddenInputKeys": "Scale,Lights,Name,SimulatePhysics,LightIntensity,LightAttenuationRadius,LightColor,CargoMass,_HiddenInputKeys,_ReadonlyInputKeys",
+					"_ReadonlyInputKeys": "Resources/Power/Production,Mass"
+				},
+				"objectInputs":
+				{
+					"StaticMesh": "StaticMesh'/Game/StaticMeshes/Modular/ROVER/ROVER_SolarPanel.ROVER_SolarPanel'"
+				},
+				"objectArrayInputs":
+				{
+					"Materials":
+					{
+						"array": []
+					}
+				}
+			}
+		},
+		{
+			"name": "B66917CD4312E4B35A960EA2B3B20E5A",
+			"isMainRoot": false,
+			"bP_Path": "/Game/BuilderTools/PartImpl/StaticMeshPart.StaticMeshPart_C",
+			"sockets": [
+				{
+					"relativeLocation":
+					{
+						"x": 385,
+						"y": 0,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 1,
+						"y": 0,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 0,
+					"outgoing": true
+				},
+				{
+					"relativeLocation":
+					{
+						"x": 260,
+						"y": -225,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				},
+				{
+					"relativeLocation":
+					{
+						"x": 135,
+						"y": -225,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				},
+				{
+					"relativeLocation":
+					{
+						"x": 10,
+						"y": -225,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0,
+						"y": 1,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				},
+				{
+					"relativeLocation":
+					{
+						"x": 260,
+						"y": 225,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0,
+						"y": -1,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				},
+				{
+					"relativeLocation":
+					{
+						"x": 135,
+						"y": 225,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0,
+						"y": -1,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				},
+				{
+					"relativeLocation":
+					{
+						"x": 10,
+						"y": 225,
+						"z": 100
+					},
+					"relativeNormalVector":
+					{
+						"x": 0,
+						"y": -1,
+						"z": 0
+					},
+					"relativeUpVector":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 1
+					},
+					"vizWorldScaleOverride":
+					{
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"socketType": 3,
+					"outgoing": false
+				}
+			],
+			"socketIn": [],
+			"socketOut": [],
+			"inertia": [
+				{
+					"ixx": 21818,
+					"iyy": 21818,
+					"izz": 21818,
+					"ixy": 1.7569999694824219,
+					"ixz": 0.047100000083446503,
+					"iyz": -0.093549996614456177
+				}
+			],
+			"parentLink":
+			{
+				"startNode": "B66917CD4312E4B35A960EA2B3B20E5A",
+				"startNodeSocketIndex": 0,
+				"endNode": "NONE",
+				"endNodeSocketIndex": 2
+			},
+			"links": [
+				{
+					"startNode": "B66917CD4312E4B35A960EA2B3B20E5A",
+					"startNodeSocketIndex": 0,
+					"endNode": "NONE",
+					"endNodeSocketIndex": 2
+				}
+			],
+			"relativeTransformToParent":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": -0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 3734.65234375,
+					"y": -944.30389404296875,
+					"z": 2388.77099609375
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"inputSet":
+			{
+				"stringInputs":
+				{
+					"Resources/Oxygen/StorageCapacity": "210",
+					"Resources/Oxygen/Storage": "210",
+					"Resources/CO2/StorageCapacity": "10",
+					"Resources/CO2/Storage": "0",
+					"Resources/Power/StorageCapacity": "100000",
+					"Resources/Power/Storage": "50000",
+					"Resources/Power/Consumption": "10",
+					"Name": "Hab Airlock",
+					"Mass": "9324.177734",
+					"CargoMass": "0",
+					"Scale": "X=1.000 Y=1.000 Z=1.000",
+					"SimulatePhysics": "false",
+					"Lights": "X=0.000 Y=0.000 Z=95.000",
+					"LightIntensity": "100000000.0",
+					"LightAttenuationRadius": "600.0",
+					"LightColor": "CLR_1.0|1.0|1.0|1.0",
+					"_HiddenInputKeys": "Scale,Lights,Name,SimulatePhysics,LightIntensity,LightAttenuationRadius,LightColor,CargoMass,_HiddenInputKeys,_ReadonlyInputKeys",
+					"_ReadonlyInputKeys": "Mass,Resources/Oxygen/StorageCapacity,Resources/CO2/StorageCapacity,Resources/Power/StorageCapacity,Resources/Power/Consumption"
+				},
+				"objectInputs":
+				{
+					"StaticMesh": "StaticMesh'/Game/StaticMeshes/Modular/MPSH/MPSH_AirlockModule.MPSH_AirlockModule'"
+				},
+				"objectArrayInputs":
+				{
+					"Materials":
+					{
+						"array": []
+					}
+				}
+			}
+		}
+	],
+	"assemblyTransform":
+	{
+		"rotation":
+		{
+			"x": 0,
+			"y": 0,
+			"z": 0,
+			"w": 1
+		},
+		"translation":
+		{
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"scale3D":
+		{
+			"x": 1,
+			"y": 1,
+			"z": 1
+		}
+	}
+}

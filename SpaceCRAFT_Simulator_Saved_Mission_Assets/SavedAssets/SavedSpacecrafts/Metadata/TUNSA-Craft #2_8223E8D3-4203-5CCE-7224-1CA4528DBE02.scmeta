@@ -1,0 +1,20 @@
+{
+	"__format_version__": 2,
+	"id": "8223E8D3-4203-5CCE-7224-1CA4528DBE02",
+	"name": "TUNSA-Craft #2",
+	"description": "",
+	"version": -1,
+	"type": "SPACECRAFT_BUILDER",
+	"creator":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedBy":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedOn": "2022-10-06T23:43:06.032Z",
+	"isLocal": true
+}

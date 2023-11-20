@@ -1,0 +1,20 @@
+{
+	"__format_version__": 2,
+	"id": "15992C6F-42FD-4F47-5773-9CAB7B0B31B4",
+	"name": "Armstrong Station #3",
+	"description": "",
+	"version": -1,
+	"type": "HABITAT_BUILDER",
+	"creator":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedBy":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedOn": "2022-10-06T23:30:28.282Z",
+	"isLocal": true
+}

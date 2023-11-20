@@ -1,0 +1,20 @@
+{
+	"__format_version__": 2,
+	"id": "BFAE64A1-416F-2BF6-D73B-909E7F2C304D",
+	"name": "U.E.S. Olympus",
+	"description": "",
+	"version": 0,
+	"type": "SPACECRAFT_BUILDER",
+	"creator":
+	{
+		"id": "bbebb6c9-ab41-49c1-bd63-8799477f2add",
+		"username": "MAN03"
+	},
+	"lastEditedBy":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedOn": "2022-10-06T23:40:32.005Z",
+	"isLocal": false
+}

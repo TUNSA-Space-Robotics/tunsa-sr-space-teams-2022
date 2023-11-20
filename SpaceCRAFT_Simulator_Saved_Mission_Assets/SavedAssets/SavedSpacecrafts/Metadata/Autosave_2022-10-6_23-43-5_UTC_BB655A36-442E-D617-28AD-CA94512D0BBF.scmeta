@@ -1,0 +1,20 @@
+{
+	"__format_version__": 2,
+	"id": "BB655A36-442E-D617-28AD-CA94512D0BBF",
+	"name": "Autosave_2022-10-6_23-43-5_UTC",
+	"description": "",
+	"version": -1,
+	"type": "SPACECRAFT_BUILDER",
+	"creator":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedBy":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedOn": "2022-10-06T23:43:05.973Z",
+	"isLocal": true
+}

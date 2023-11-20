@@ -1,0 +1,20 @@
+{
+	"__format_version__": 2,
+	"id": "63E7242A-4CCD-95A6-1D8F-049C6FFBBAB0",
+	"name": "HABITATX-PERFECT",
+	"description": "",
+	"version": -1,
+	"type": "HABITAT_BUILDER",
+	"creator":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedBy":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedOn": "2022-10-07T11:23:32.732Z",
+	"isLocal": true
+}

@@ -1,0 +1,20 @@
+{
+	"__format_version__": 2,
+	"id": "3050DB41-4EE4-F331-B2C1-2E9C4EE7B280",
+	"name": "__Embark__0",
+	"description": "",
+	"version": 0,
+	"type": "PLANET_BUILDER",
+	"creator":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedBy":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedOn": "2022-10-04T16:48:17.140Z",
+	"isLocal": false
+}

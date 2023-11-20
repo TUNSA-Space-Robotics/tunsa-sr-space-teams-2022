@@ -1,0 +1,20 @@
+{
+	"__format_version__": 2,
+	"id": "8070A050-4B6B-8595-3A18-91A9815D9978",
+	"name": "TUNSA-Craft ",
+	"description": "",
+	"version": 0,
+	"type": "SPACECRAFT_BUILDER",
+	"creator":
+	{
+		"id": "c1b00f32-8ac1-49b0-9673-b8393a38a159",
+		"username": "Yecin_1"
+	},
+	"lastEditedBy":
+	{
+		"id": "34c7d831-f705-422c-ac69-d4cc9f443ab9",
+		"username": "ElyesKhe"
+	},
+	"lastEditedOn": "2022-10-06T23:40:50.121Z",
+	"isLocal": false
+}
